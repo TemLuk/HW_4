@@ -1,0 +1,12 @@
+dict_hillel = {}
+list_hillel = list('Hillel school')
+dict_hillel['H'] = list_hillel.count('H')
+dict_hillel['i'] = list_hillel.count('i')
+dict_hillel['l'] = list_hillel.count('l')
+dict_hillel['e'] = list_hillel.count('e')
+dict_hillel[' '] = list_hillel.count(' ')
+dict_hillel['s'] = list_hillel.count('s')
+dict_hillel['c'] = list_hillel.count('c')
+dict_hillel['h'] = list_hillel.count('h')
+dict_hillel['o'] = list_hillel.count('o')
+print(dict_hillel)
